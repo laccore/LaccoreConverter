@@ -67,9 +67,9 @@ void createDir(std::string basePath, std::string dirToCreate)
 	}
 }
 
-static const std::string jpegDir("\\_fullSizeJpegs\\");
-static const std::string tiffDir("\\_fullSizeTiffs\\");
-static const std::string scaledDir("\\_reducedJpegs\\");
+static const std::string jpegDir("\\jpeg\\");
+static const std::string tiffDir("\\tiff\\");
+static const std::string scaledDir("\\ICD\\");
 void createOutputDirs()
 {
 	std::string appPath = getAppPath();
